@@ -1,0 +1,21 @@
+#innerDiv{
+    /*border-style: solid; 
+    border-width: thin; 
+    border-color: black;*/
+    box-sizing: border-box;
+    height: 6.25%;
+    width: 6.25%;
+}
+/*#innerDiv:hover{
+    background-color: black;
+}*/
+
+.mainGrid{
+    display: flex;
+    height: 800px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
